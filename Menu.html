@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: sans-serif;
+            box-sizing: border-box;
+            background-color: rgb(80, 25, 25);
+        }
+        h1{
+            text-align: center;
+            color:brown;
+            padding: 20px;
+            background-color: rgb(240, 232, 232);
+
+        }
+        .items{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 30px 20px;
+            grid-column-gap: 20px ;
+            grid-row-gap: 30px;
+        }
+        .items img{
+            height: 300;
+            width: 300;
+            object-fit: cover;
+            cursor:pointer;
+        }
+        .items button{
+            padding: 2px 15px;
+            background-color: brown;
+            color: aliceblue;
+            cursor:pointer;
+            border-radius: 2px;
+            height: 50px;
+            width: 80px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>MENU</h1>
+    <section class="items">
+        <div class="items">
+            <img src="https://i.pinimg.com/originals/da/6f/3a/da6f3a6305596079b891bdb35d53b5f4.jpg" height="300" width="300" >
+            <button>Cold Coffee</button>
+        </div>
+        <div class="items">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.a_ugIW7bPcI4TydHVzPb9wHaFe&pid=Api&P=0&h=180" height="300" width="300">
+            <button>Black Coffee</button>
+        </div>
+        <div class="items">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.YX5JcpIyKHU1jJ8ShjQIywHaD4&pid=Api&P=0&h=180" height="300" width="300">
+            <button>Hot Coffee</button>
+        </div>
+        <div class="items">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.ESZIM-wUW9wP4l86TNDPmgHaE4&pid=Api&P=0&h=180" height="300" width="300">
+            <button>Cup Cake</button>
+        </div>
+        <div class="items">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.QU85AyRqHQn1Pk09FOTyWAHaFp&pid=Api&P=0&h=180" height="300" width="300">
+            <button>Cake</button>
+        </div>
+        <div class="items">
+            <img src="https://up.yimg.com/ib/th?id=OIP.TNojx7ctJWH0bD4y1gqPQAHaKl&pid=Api&rs=1&c=1&qlt=95&w=77&h=111" height="300" width="300">
+            <button>Chocolate Shots</button>
+        </div>
+        <div class="items">
+            <img src="https://up.yimg.com/ib/th?id=OIP.-duloqX9nf_KXFgM4iJhLwHaHa&pid=Api&rs=1&c=1&qlt=95&w=110&h=110" height="300" width="300">
+            <button>Vanilla Shots</button>
+        </div>
+        <div class="items">
+            <img src="https://www.wikihow.com/images/1/1a/Make-a-Long-Island-Iced-Tea-Step-9.jpg" height="300" width="300">
+            <button>Iced Tea</button>
+        </div>
+        <div class="items">
+            <img src="http://1.bp.blogspot.com/-kHHwbQn1L7A/UQj2g5epNeI/AAAAAAAACQE/WZ6273RZO8s/s1600/tea3.jpg"height="300" width="300" >
+            <button>Tea</button>
+        </div>
+
+    </section>
+</body>
+</html>
